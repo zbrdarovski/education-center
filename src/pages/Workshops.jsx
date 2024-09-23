@@ -36,9 +36,9 @@ function Workshops() {
           {workshops.map((workshop, index) => (
             <div key={index} className="bg-white bg-opacity-20 rounded-lg shadow-md p-6">
               <h3 className="text-2xl font-semibold">{workshop.title}</h3>
-              <p className="text-blue-400">Date: {new Date(workshop.date).toLocaleDateString()}</p>
-              <p className="text-blue-400">Instructor: {workshop.instructor}</p>
-              <p className="mt-2 text-gray-200">{workshop.description}</p>
+              <p>Date: {new Date(workshop.date).toLocaleDateString()}</p>
+              <p>Instructor: {workshop.instructor}</p>
+              <p>{workshop.description}</p>
               <div className="mt-4">
                 <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</button>
               </div>
