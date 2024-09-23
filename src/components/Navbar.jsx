@@ -11,7 +11,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-white font-bold text-xl">EduCenter</Link>
+            <Link to="/" className="text-white font-bold text-xl">Mreža znanja</Link>
           </div>
           {/* Desktop Menu */}
           <div className="hidden md:block">

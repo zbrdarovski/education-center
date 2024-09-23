@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mreža znanja",
+  "name": "Edukativen centar Mreža znanja",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,39 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo16.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "16x16"
+    },
+    {
+      "src": "logo32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "logo697.png",
+      "type": "image/png",
+      "sizes": "697x697"
     }
   ],
   "start_url": ".",
