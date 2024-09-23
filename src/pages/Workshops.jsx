@@ -25,20 +25,26 @@ const workshops = [
 
 function Workshops() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">Upcoming Workshops</h2>
-      <div className="space-y-6">
-        {workshops.map((workshop, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-2xl font-semibold">{workshop.title}</h3>
-            <p className="text-gray-600">Date: {new Date(workshop.date).toLocaleDateString()}</p>
-            <p className="text-gray-600">Instructor: {workshop.instructor}</p>
-            <p className="mt-2 text-gray-700">{workshop.description}</p>
-            <div className="mt-4">
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</button>
+    <div className="relative"> {/* Add margin-top for spacing */}
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+
+      {/* Content */}
+      <div className="relative max-w-7xl mx-auto px-4 py-12 z-10 text-white">
+        <h2 className="text-3xl font-bold text-center mb-8">Upcoming Workshops</h2>
+        <div className="space-y-6">
+          {workshops.map((workshop, index) => (
+            <div key={index} className="bg-white bg-opacity-20 rounded-lg shadow-md p-6">
+              <h3 className="text-2xl font-semibold">{workshop.title}</h3>
+              <p className="text-blue-400">Date: {new Date(workshop.date).toLocaleDateString()}</p>
+              <p className="text-blue-400">Instructor: {workshop.instructor}</p>
+              <p className="mt-2 text-gray-200">{workshop.description}</p>
+              <div className="mt-4">
+                <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
