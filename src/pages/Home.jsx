@@ -9,16 +9,14 @@ function Home() {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 py-12 z-10 text-white">
-        <h2 className="text-3xl font-bold text-center mb-8">Welcome</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Добродошли</h2>
         <p className="mt-4 text-lg text-white">
-          At Mreža znanja, our mission is to provide accessible and high-quality education to learners of all ages.
-        </p>
-        <p className="mt-4 text-lg text-white">
-          Empowering students through quality education and engaging workshops.
+          ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА је правно лице које има за циљ побољшање и унапређење едукативног
+          процеса деце.
         </p>
         <div className="mt-6">
           <Link to="/workshops" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
-            View Workshops
+            Погледајте радионице
           </Link>
         </div>
       </div>

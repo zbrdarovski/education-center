@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Team from './pages/Team';
+import Instructors from './pages/Team';
 import Workshops from './pages/Workshops';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/team" element={<Team />} />
+            <Route path="/instructors" element={<Instructors />} />
             <Route path="/workshops" element={<Workshops />} />
           </Routes>
         </main>

@@ -13,9 +13,9 @@ function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-            <Link to="/" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-              <Link to="/team" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Team</Link>
-              <Link to="/workshops" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Workshops</Link>
+            <Link to="/" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Насловна</Link>
+              <Link to="/instructors" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Инструктори</Link>
+              <Link to="/workshops" className="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">Радионице</Link>
             </div>
           </div>
           {/* Mobile Menu Button */}
@@ -29,9 +29,9 @@ function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-blue-700">
-          <Link to="/" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link to="/team" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Team</Link>
-          <Link to="/workshops" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Workshops</Link>
+          <Link to="/" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Насловна</Link>
+          <Link to="/instructors" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Инструктори</Link>
+          <Link to="/workshops" className="block text-white px-4 py-2 hover:bg-blue-800" onClick={() => setIsOpen(false)}>Радионице</Link>
         </div>
       )}
     </nav>
