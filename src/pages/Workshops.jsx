@@ -37,7 +37,7 @@ const workshops = [
 
 function Workshops() {
   return (
-    <div className="relative"> {/* Add margin-top for spacing */}
+    <div className="relative">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -52,7 +52,7 @@ function Workshops() {
               <p className="text-2 mb-2">Инструктор: {workshop.instructor}</p>
               <p className="text-2 mb-2">{workshop.description}</p>
               <div className="mt-4">
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Пријавите се</button>
+                <button className="bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-900">Пријавите се</button>
               </div>
             </div>
           ))}

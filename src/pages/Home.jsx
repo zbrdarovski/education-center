@@ -15,7 +15,7 @@ function Home() {
           процеса деце.
         </p>
         <div className="mt-6">
-          <Link to="/workshops" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+          <Link to="/workshops" className="bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-900">
             Погледајте радионице
           </Link>
         </div>
