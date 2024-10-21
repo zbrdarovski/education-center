@@ -18,7 +18,7 @@ function Footer() {
             <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" /> 069-1652-195
           </p>
           <p className="flex items-center justify-center">
-            <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> Email: example@example.com
+            <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> Email: office@ecmrezaznanja.com
           </p>
         </div>
 

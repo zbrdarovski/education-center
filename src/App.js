@@ -18,6 +18,13 @@ function App() {
             <Route path="/workshops" element={<Workshops />} />
           </Routes>
         </main>
+
+        <div className="relative flex justify-end">
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <a className="relative mx-2 my-2 text-white" href="https://www.freepik.com/">Freepik</a>
+        </div>
+
         <Footer />
       </div>
     </Router>
