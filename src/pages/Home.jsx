@@ -30,26 +30,24 @@ function Home() {
         <h2 className="text-3xl font-bold text-center mb-8">Добродошли</h2>
 
         {/* Main Section: Slideshow + Text */}
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between space-x-0 lg:space-x-2">
-
+        <div className="w-full flex flex-col items-center lg:flex-row lg:items-start justify-between space-x-0 lg:space-x-2">
           {/* Slideshow */}
-          <div className="w-full flex justify-center">
-            <div className="w-1/3 h-1/3 mr-10">
-              <img
-                src={images[currentIndex]}
-                alt={`Slide ${currentIndex + 1}`}
-                className="w-full h-full object-contain"
-              />
-            </div>
-            {/* Text Content */}
-            <div className="bg-white bg-opacity-20 rounded-lg shadow-md p-6 text-left inline-block max-w-xs max-h-64 inset-x-0 bottom-0">
-              <p className="text-lg mb-5 leading-relaxed">
-                ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА је правно лице које има за циљ побољшање и унапређење едукативног процеса деце.
-              </p>
-              <Link to="/workshops" className="bg-green-800 text-white px-6 py-3 rounded-md hover:bg-green-900 transition duration-300 ease-in-out">
-                Погледајте радионице
-              </Link>
-            </div>
+          <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+            <img
+              src={images[currentIndex]}
+              alt={`Slide ${currentIndex + 1}`}
+              className="w-full h-auto object-cover rounded-md"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="bg-white bg-opacity-20 rounded-lg shadow-md p-6 text-left max-w-xs lg:max-w-sm mx-auto">
+            <p className="text-lg mb-5 leading-relaxed">
+              ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА је правно лице које има за циљ побољшање и унапређење едукативног процеса деце.
+            </p>
+            <Link to="/workshops" className="bg-green-800 text-white px-6 py-3 rounded-md hover:bg-green-900 transition duration-300 ease-in-out">
+              Погледајте радионице
+            </Link>
           </div>
         </div>
       </div>

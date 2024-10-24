@@ -6,8 +6,9 @@ import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-
 function Footer() {
   return (
     <footer className="bg-orange-900 text-white py-4">
-      <div className="max-w-7xl mx-auto flex justify-center items-center">
-        <div className="text-center mx-4">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center text-center space-y-4 md:space-y-0 md:space-x-6">
+        {/* Contact Info */}
+        <div className="flex flex-col space-y-2">
           <p className="flex items-center justify-center">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" /> ТЦ Барили 2 спрат, Пожаревац
           </p>
@@ -22,18 +23,19 @@ function Footer() {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mx-4">
-          <a href="https://www.facebook.com/profile.php?id=61567397544439&mibextid=ZbWKwL" className="mx-2" target="_blank" rel="noopener noreferrer">
+        {/* Social Icons */}
+        <div className="flex space-x-4">
+          <a href="https://www.facebook.com" className="mx-2" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="https://www.instagram.com/mreza.znanja?igsh=Z2F3MXRscDI2enZ3" className="mx-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com" className="mx-2" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
-        
-        <div className="border-l border-white h-16 mx-4"></div> {/* Vertical line */}
 
-        <div className="text-center mx-4">
+        {/* Rights Info */}
+        <div className="border-t border-white w-full md:border-t-0 md:border-l h-px md:h-16 mx-4"></div> {/* Horizontal line for mobile */}
+        <div>
           <p>&copy; {new Date().getFullYear()} ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА. Сва права задржана.</p>
         </div>
       </div>
