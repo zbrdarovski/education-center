@@ -34,10 +34,10 @@ function Footer() {
         </div>
 
         {/* Rights Info */}
-        <div className="border-t border-white w-full md:border-t-0 md:border-l h-px md:h-16 mx-4"></div> {/* Horizontal line for mobile */}
-        <div>
-          <p>&copy; {new Date().getFullYear()} ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА. Сва права задржана.</p>
-        </div>
+
+      </div>
+      <div>
+        <p className="flex items-center justify-center mt-3">&copy; {new Date().getFullYear()} ЕДУКАТИВНИ ЦЕНТАР МРЕЖА ЗНАЊА. Сва права задржана.</p>
       </div>
     </footer>
   );

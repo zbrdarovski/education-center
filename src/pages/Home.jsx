@@ -30,7 +30,7 @@ function Home() {
         <h2 className="text-3xl font-bold text-center mb-8">Добродошли</h2>
 
         {/* Main Section: Slideshow + Text */}
-        <div className="w-full flex flex-col items-center lg:flex-row lg:items-start justify-between space-x-0 lg:space-x-2">
+        <div className="w-full justify-center flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2">
           {/* Slideshow */}
           <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
             <img
