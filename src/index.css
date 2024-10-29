@@ -17,7 +17,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+/* Mobile styles */
+@media (max-width: 640px) { /* Adjust the max-width as needed */
+  body {
+    background-image: url('./assets/images/background.jpg'); /* Keep this the same if you want the same image */
+    background-size: cover; /* Change to cover for better fitting on mobile */
+    background-position: center; /* Center the image */
+    min-height: 100vh; /* Ensure it still covers the viewport height */
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
