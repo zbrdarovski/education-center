@@ -21,11 +21,11 @@ body {
 @media (max-width: 640px) { /* Adjust the max-width as needed */
   body {
     background-image: url('./assets/images/background.jpg'); /* Keep this the same if you want the same image */
-    background-size: cover; /* Change to cover for better fitting on mobile */
-    background-position: center; /* Center the image */
-    min-height: 100vh; /* Ensure it still covers the viewport height */
+    background-position: center calc(100% - 39vh); /* Position 5% from the bottom */
+    min-height: 100vh; /* Ensures it still covers the viewport height */
   }
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
