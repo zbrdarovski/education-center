@@ -8,20 +8,16 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   background-image: url('./assets/images/background.jpg');
-  background-size: cover;
-  /* Ensures the image covers the entire background */
-  background-position: center;
-  /* Centers the image */
-  height: 100vh;
-  /* Full viewport height */
-  margin: 0;
-  /* Remove default margins */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-size: 100% auto;
+  background-color: #fed97c;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

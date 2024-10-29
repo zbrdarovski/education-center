@@ -5,7 +5,7 @@ import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-
 
 function Footer() {
   return (
-    <footer className="bg-orange-900 text-white py-4">
+    <footer className="bg-yellow-700 text-white py-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center text-center space-y-4 md:space-y-0 md:space-x-6">
         {/* Contact Info */}
         <div className="flex flex-col space-y-2">

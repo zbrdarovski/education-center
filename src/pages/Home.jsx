@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // Import your images
+import additional from '../assets/images/additional.jpg';
 import choir from '../assets/images/choir.jpg';
 import classes from '../assets/images/classes.jpg';
 import finals from '../assets/images/finals.jpg';
 import kids from '../assets/images/kids.jpg';
 
 function Home() {
-  const images = [choir, classes, finals, kids];
+  const images = [additional, choir, classes, finals, kids];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Automatically change slide every 7.5 seconds
@@ -32,7 +33,7 @@ function Home() {
         {/* Main Section: Slideshow + Text */}
         <div className="w-full justify-center flex flex-col items-center lg:flex-row lg:items-start space-x-0 lg:space-x-2">
           {/* Slideshow */}
-          <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+          <div className="w-full lg:w-2/5 flex justify-center mb-6 lg:mb-0">
             <img
               src={images[currentIndex]}
               alt={`Slide ${currentIndex + 1}`}

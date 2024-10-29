@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Import your images
+import additional from '../assets/images/additional.jpg';
 import choir from '../assets/images/choir.jpg';
 import classes from '../assets/images/classes.jpg';
 import finals from '../assets/images/finals.jpg';
@@ -21,7 +22,7 @@ const workshops = [
     date: 'Програм школарци-зналци почиње са радом од 01.11.2024 и траје до 30.05.2025 године. Настава се одвија уторком и четвртком.',
     instructor: 'Име инструктора',
     description: 'Програм допуне знања школарци-зналци за основну школу је програм намењен ученицима школског узраста и то од првог до четвртог разреда. Програм је осмишљен да полазницима пружи подршку у усвајању функционалног знања уз помоћ учитеља и педагога са посебним освртом на технике учења. Програм се реализује два пута недељно у трајењу од 60 минута у групама до 5 полазника.',
-    // No image for this workshop
+    image: additional,
     email: 'skolarciznalci@ecmrezaznanja.com',
     subject: 'Пријава за програм допуне знања школарци-зналци'
   },
@@ -78,7 +79,7 @@ function Workshops() {
                 <img
                   src={workshop.image}
                   alt={workshop.title}
-                  className="w-full sm:w-1/2 h-auto object-cover rounded-md mb-4 mx-auto"
+                  className="w-full sm:w-2/5 h-auto object-cover rounded-md mb-4 mx-auto"
                 />
               )}
               <p className="text-base mb-2">{workshop.date}</p>
