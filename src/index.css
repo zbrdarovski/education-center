@@ -10,22 +10,28 @@ body {
   background-image: url('./assets/images/background.jpg');
   background-size: 100% auto;
   background-color: #fed97c;
-  background-position: center bottom;
+  background-position: center calc(100% - 180px); /* Position just above the footer */
   background-repeat: no-repeat;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Tablet styles */
+@media (min-width: 641px) and (max-width: 1280px) {
+  body {
+    background-position: center calc(100% - 175px); /* Adjust for tablet */
+  }
+}
+
 /* Mobile styles */
 @media (max-width: 640px) { /* Adjust the max-width as needed */
   body {
     background-image: url('./assets/images/background.jpg'); /* Keep this the same if you want the same image */
-    background-position: center calc(100% - 39vh); /* Position 5% from the bottom */
+    background-position: center calc(100% - 240px); /* Adjust for footer height */
     min-height: 100vh; /* Ensures it still covers the viewport height */
   }
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
