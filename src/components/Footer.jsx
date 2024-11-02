@@ -25,10 +25,10 @@ function Footer() {
 
         {/* Social Icons */}
         <div className="flex space-x-4">
-          <a href="https://www.facebook.com" className="mx-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61567397544439" className="mx-2" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="https://www.instagram.com" className="mx-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mreza.znanja/?igsh=Z2F3MXRscDI2enZ3" className="mx-2" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
