@@ -1,8 +1,42 @@
 # Education Center Website
 
-Technologies: React and Tailwind CSS
+| Powered by                                                                                                     | Background by                              |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="72px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="72px" /> | <a href="https://www.freepik.com/" target="_blank" rel="noopener noreferrer"><div align="center"><img src="https://fps.cdnpk.net/favicons/favicon-96x96.png" alt="Freepik" width="72px"></div></a> |
 
-# Getting Started with Create React App
+## Overview
+
+Our website is designed to provide a modern and responsive digital presence for an education center. It presents a gateway to quality education, making it easier for students, parents and educators to connect to the education center. Built with a focus on usability and aesthetics, the website offers:
+
+- Seamless Navigation: Quick access to information about the mission, team, and activity.
+- Interactive Design: A visually appealing layout that adapts perfectly to any device, whether desktop, tablet, or mobile.
+- Fast Performance: React ensures smooth functionality, while Tailwind CSS adds efficiency in styling and customization.
+- Engaging Content: Learn about the education center, explore workshops, and stay updated.
+
+## Website Structure
+
+3 landing pages:
+- About Us - provides information about the education center
+- Tutors - provides information about the tutors
+- Workshops - provides information about the current workshops and allows the user to signup to them
+
+2 components:
+- Navbar - provides simple navigation
+- Footer - provides contact infromation and links to social pages
+
+## Project Structure
+
+`./public/index.html` used for Search Engine Optimization
+
+`./public/manifest.json` stores information about the web application
+
+`./src/assets/images/` contains images that are used in the website
+
+`./src/pages/` contains website's pages
+
+`./src/components/` contains website's navbar and footer
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
